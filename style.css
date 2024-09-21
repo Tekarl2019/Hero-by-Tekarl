@@ -89,6 +89,7 @@ header .menu-icon{
     overflow: hidden;
 }
 
+
 .hero:before{
     z-index: 777;
     content: '';
@@ -111,7 +112,14 @@ header .menu-icon{
     object-fit: cover;
     clip-path: circle(0% at 0 50%);
 }
-
+@media(max-height: 624px){
+    .hero{
+        min-height: 720px;
+    }
+    .slide video{
+        min-height: 720px;
+    }
+}
 .slide.active video{
     clip-path: circle(150% at 0 50%);
     transition: 2s ease;
