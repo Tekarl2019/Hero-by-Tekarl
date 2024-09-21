@@ -3,10 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero by Tekarl</title>
+    <title>Hero. by Tekarl</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b8fe738cc0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>HERO<span>.</span></h1>
+        <div class="menu">
+            <a href="" class="menu-btn">Home</a>
+            <a href="" class="menu-btn">About</a>
+            <a href="" class="menu-btn">Explore</a>
+            <a href="" class="menu-btn">Gallery</a>
+            <a href="" class="menu-btn">Contact</a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="slide active" id="slide-1">
+            <video src="assets/videos/road-2.mp4" autoplay muted loop></video>
+            <div class="content">
+                <h1>AMAZING. <br> <span>Landscape</span></h1>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloremque exercitationem, dolores beatae illum totam laboriosam, 
+                 iste quod nobis dolor dicta consectetur cupiditate, asperiores 
+                 repellendus! Dolorem maiores optio consequatur error veniam laborum 
+                 quia placeat non, quos voluptas, blanditiis iste architecto esse.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="slide" id="slide-2">
+            <video src="assets/videos/adventure.mp4" autoplay muted loop></video>
+            <div class="content">
+                <h1>UNCOVER. <br> <span>Mystery</span></h1>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloremque exercitationem, dolores beatae illum totam laboriosam, 
+                 iste quod nobis dolor dicta consectetur cupiditate, asperiores 
+                 repellendus! Dolorem maiores optio consequatur error veniam laborum 
+                 quia placeat non, quos voluptas, blanditiis iste architecto esse.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="slide" id="slide-3">
+            <video src="assets/videos/nature.mp4" autoplay muted loop></video>
+            <div class="content">
+                <h1>EXPERIENCE. <br> <span>Nature</span></h1>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloremque exercitationem, dolores beatae illum totam laboriosam, 
+                 iste quod nobis dolor dicta consectetur cupiditate, asperiores 
+                 repellendus! Dolorem maiores optio consequatur error veniam laborum 
+                 quia placeat non, quos voluptas, blanditiis iste architecto esse.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="slide" id="slide-4">
+            <video src="assets/videos/road.mp4" autoplay muted loop></video>
+            <div class="content">
+                <h1>UNIQUE. <br> <span>Adventure</span></h1>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloremque exercitationem, dolores beatae illum totam laboriosam, 
+                 iste quod nobis dolor dicta consectetur cupiditate, asperiores 
+                 repellendus! Dolorem maiores optio consequatur error veniam laborum 
+                 quia placeat non, quos voluptas, blanditiis iste architecto esse.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="slide" id="slide-5">
+            <video src="assets/videos/island.mp4" autoplay muted loop></video>
+            <div class="content">
+                <h1>WONDERFUL. <br> <span>Island</span></h1>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloremque exercitationem, dolores beatae illum totam laboriosam, 
+                 iste quod nobis dolor dicta consectetur cupiditate, asperiores 
+                 repellendus! Dolorem maiores optio consequatur error veniam laborum 
+                 quia placeat non, quos voluptas, blanditiis iste architecto esse.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="slider-menu">
+            <input type="radio" name="slider-btn" id="slider-btn-1" checked="checked" class="slider-btn" onchange="slide()">
+            <label for="slider-btn-1"></label>
+
+            <input type="radio" name="slider-btn" id="slider-btn-2" class="slider-btn">
+            <label for="slider-btn-2"></label>
+
+            <input type="radio" name="slider-btn" id="slider-btn-3" class="slider-btn">
+            <label for="slider-btn-3"></label>
+
+            <input type="radio" name="slider-btn" id="slider-btn-4" class="slider-btn">
+            <label for="slider-btn-4"></label>
+
+            <input type="radio" name="slider-btn" id="slider-btn-5" class="slider-btn">
+            <label for="slider-btn-5"></label>
+        </div>
+        <div class="media-icons">
+            <p>by <span>Tekarl</span></p>
+            <a href="https://github.com/Tekarl2019"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto: tekarlan2019@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
