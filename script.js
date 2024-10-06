@@ -6,11 +6,15 @@ let count;
 
 
 slide_btns[1].checked = false;
+slides[1].classList.remove('active');
 slide_btns[2].checked = false;
+slides[2].classList.remove('active');
 slide_btns[3].checked = false;
+slides[3].classList.remove('active');
 slide_btns[4].checked = false;
-slide_btns[0].checked = true;
-slides[0].classList.add('active');
+slides[4].classList.remove('active');
+slide_btns[last_i].checked = true;
+slides[last_i].classList.add('active');
 
 
 
